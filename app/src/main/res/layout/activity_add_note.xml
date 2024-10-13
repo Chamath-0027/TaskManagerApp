@@ -191,5 +191,18 @@
         app:layout_constraintTop_toBottomOf="@+id/et_description"
         app:layout_constraintVertical_bias="0.743" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="278dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_heading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/todologo" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
